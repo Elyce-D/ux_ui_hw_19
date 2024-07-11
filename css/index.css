@@ -1,0 +1,129 @@
+.inline-block {
+    display: inline-block;
+    vertical-align: top;
+}
+.logo {
+    width: 23%;
+    padding: 1%;
+    text-align: center;
+}
+.edLogo:hover {
+    transform: scale(0.7);
+  }
+.logo img {
+    width: 80px;
+    height: 80px;
+}
+.nav {
+    width: 73%;
+    padding: 1%;
+}
+.nav ul {
+    width: 50%;
+    margin-left: auto;
+}
+.heroImg {
+    height: 600px;
+    padding: 25px;
+}
+.content {
+    width: 500px;
+    margin: 0 auto;
+    text-align: center; 
+}
+.content img {
+    width: 360px;
+    height: 360px;
+    object-fit: cover;
+}
+.mySkills {
+    padding: 20px;
+    background-color: #f0f0f0;
+    text-align: center;
+}
+.skillsContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center; 
+    gap: 20px; 
+    flex-wrap: wrap; /
+}
+.skillsContainer > div {
+    /* /* width: 30%;  */
+    padding: 20px;
+    background-color: #ffffff;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.skillsContainer > div img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+.skillsContainer > div h3 {
+    margin-top: 10px;
+}
+.skillsContainer > div p {
+    font-size: 14px;
+}
+.myWork {
+    padding: 20px;
+    background-color: #f0f0f0;
+    text-align: center;
+}
+.workGrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+   justify-content: center; 
+    align-items: center; 
+}
+.work1, .work2, .work3 {
+    padding: 20px;
+    background-color: #ffffff;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.workGrid img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px 8px 0 0;
+}
+.workGrid h4 {
+    margin-top: 10px;
+}
+.workGrid p {
+    font-size: 14px;
+}
+.workGrid button {
+    margin-top: 10px;
+    padding: 8px 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.workGrid button:hover {
+    background-color: #45a049;
+}
+.myWork h3 {
+    margin-top: 20px;
+}
+footer {
+    background-color: #373738;
+    padding: 20px;
+    text-align: center;
+}
+footer ul {
+    display: inline-block;
+    vertical-align: top;
+    padding: 0;
+    list-style-type: none;
+}
+footer li {
+    padding: 10px;
+}
